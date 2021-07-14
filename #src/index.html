@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.min.css">
+    <title>Rayal Park</title>
+</head>
+<body>
+    @@include('_header.html')
+    <script src="js/script.min.js"></script>
+    <section class="dream-holidays">
+        <div id="dream-blackout">
+            <div id="dream-window">
+              Video<br>
+              <a href="#" class="close">Close</a>
+            </div>
+        </div>
+        <img class="dream-video1" src="../img/video1.jpg" alt="">
+        <img class="dream-video2" src="../img/video2.jpg" alt="">
+        <div class="circle"> </div>
+        <a href="#dream-blackout"><div class="triangle"> </div></a>
+        <div class="dream-inform">
+            <p style="margin-left: 0px ;" class="mid-text">DREAM HOLIDAYS</p>
+            <p class="dream-big-text">Enjoy unforgettable experiences in dream hotels.</p>
+            <button style="margin-left: -5px;" class="butt">View more</button>
+        </div>
+    </section>
+    <section class="why-choose"><a name="features"></a>
+        <div class="why-choose-text">
+            <p class="dream-big-text">Why you choose us!</p>
+            <p class="choose-small-text">Naturally, it’s becoming even more important for hotel and hospitality brands to stand out from the crowd. Content marketing remains a key way for hotels to do this.</p>
+        </div>
+        <div class="why-choose-reasons">
+            <div class="why-choose-reason">
+                <img class="reason-image" src="../img/reason1.png" alt="">
+                <p class="reason-big-text">Easy booking</p>
+                <p class="reason-small-text">The booking process should include minimal steps.</p>
+            </div>
+            <div class="why-choose-reason">
+                <img class="reason-image" src="../img/reason2.png" alt="">
+                <p class="reason-big-text">Friendly interface</p>
+                <p class="reason-small-text">A hotel booking engine with a good user-friendly.</p>
+            </div>
+            <div class="why-choose-reason">
+                <img class="reason-image" src="../img/reason3.png" alt="">
+                <p class="reason-big-text">Responsibility</p>
+                <p class="reason-small-text">You should be able to add rooms to your system.</p>
+            </div>
+            <div class="why-choose-reason">
+                <img class="reason-image" src="../img/reason4.png" alt="">
+                <p class="reason-big-text">Quick order supply</p>
+                <p class="reason-small-text">The booking process should include minimal steps.</p>
+            </div>
+        </div>
+    </section>
+    <section><a name="galary"></a>
+        @@include('_galary-window.html')
+        <div class="hotel-gallery">
+            <p class="dream-big-text galary-big-text">About hotel gallery</p>
+            <p class="galary-text">While some of these examples are real – actually offering guests a stay in the locations advertised – it’s mainly just a way.</p>
+            <a href="#galary-blackout"><button style="margin-left: -5px;" class="butt">View more</button></a>
+        </div>
+        <div class="room3">
+            <img class="room-img3" src="../img/galary1.jpg" alt="">
+            <div class="room-bg">
+                <div class="room-inf">
+                <p class="room-text">Lux: Room</p>
+                <p class="room-cost">$60 night</p>
+                <a href="#galary-blackout"><button class="room-butt">View more</button></a>
+                </div>
+            </div>
+        </div>
+        <div class="room2">
+            <img class="room-img2" src="../img/galary2.jpg" alt="">
+            <div class="room-bg">
+                <div class="room-inf">
+                <p class="room-text">Mini Room</p>
+                <p class="room-cost">$70 night</p>
+                <a href="#galary-blackout"><button class="room-butt">View more</button></a>
+                </div>
+            </div>
+        </div>
+        <div class="room3">
+            <img class="room-img3" src="../img/galary3.jpg" alt="">
+            <div class="room-bg">
+                <div class="room-inf">
+                <p class="room-text">Stande Room</p>
+                <p class="room-cost">$65 night</p>
+                <a href="#galary-blackout"><button class="room-butt">View more</button></a>
+                </div>
+            </div>
+        </div>
+        <div class="room2">
+            <img class="room-img2" src="../img/galary4.jpg" alt="">
+            <div class="room-bg">
+                <div class="room-inf">
+                <p class="room-text">Single Room</p>
+                <p class="room-cost">$55 night</p>
+                <a href="#galary-blackout"><button class="room-butt">View more</button></a>
+                </div>
+            </div>
+        </div>
+        <div class="room3">
+            <img class="room-img3" src="../img/galary5.jpg" alt="">
+            <div class="room-bg">
+                <div class="room-inf">
+                <p class="room-text">Elite Room</p>
+                <p class="room-cost">$65 night</p>
+                <a href="#galary-blackout"><button class="room-butt">View more</button></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section><a name="testimonials"></a>
+        <div class="all-reviews">
+            <p class="dream-big-text">What our client say</p>
+            <button value="Click" onmousedown="viewServs()" class="reviews-butt">View All</button>
+        </div>
+        <div class="some-reviews">
+            <div class="review" id="review1">
+                <img class="review-img" src="../img/review1.jpg" alt="">
+                <p class="review-big-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit Ultrices.</p>
+                <p class="review-small-text">David lee</p>
+                <p class="review-sign">davidlee@</p>
+            </div>
+            <div class="review" id="review2">
+                <img class="review-img" src="../img/review2.jpg" alt="">
+                <p class="review-big-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit Ultrices.</p>
+                <p class="review-small-text">Ravi shankor</p>
+                <p class="review-sign">ravishankor@</p>
+            </div>
+            <div class="review" id="review3">
+                <img class="review-img" src="../img/review3.jpg" alt="">
+                <p class="review-big-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit Ultrices.</p>
+                <p class="review-small-text">Thomas lew</p>
+                <p class="review-sign">thomaslew@</p>
+            </div>
+        </div>
+        <div class="some-reviews">
+            <div class="review" id="review4">
+                <img class="review-img" src="../img/review1.jpg" alt="">
+                <p class="review-big-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit Ultrices.</p>
+                <p class="review-small-text">David lee</p>
+                <p class="review-sign">davidlee@</p>
+            </div>
+            <div class="review" id="review5">
+                <img class="review-img" src="../img/review2.jpg" alt="">
+                <p class="review-big-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit Ultrices.</p>
+                <p class="review-small-text">Ravi shankor</p>
+                <p class="review-sign">ravishankor@</p>
+            </div>
+            <div class="review" id="review6">
+                <img class="review-img" src="../img/review3.jpg" alt="">
+                <p class="review-big-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit Ultrices.</p>
+                <p class="review-small-text">Thomas lew</p>
+                <p class="review-sign">thomaslew@</p>
+            </div>
+        </div>
+    </section>
+    <section class="in-touch">
+        <p class="in-touch-text">STAY IN TOUCH</p>
+        <p class="dream-big-text">Join our email. First to know about specials,events and more!</p>
+        <form class="email-form">
+            <input type="email" class="email" placeholder="Enter your email address">
+            <input type="submit" class="sub-butt" value="Subscribe">
+        </form>
+    </section>
+    @@include('_footer.html')
+</body>
+</html>

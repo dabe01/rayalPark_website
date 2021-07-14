@@ -1,0 +1,9 @@
+@include font("18546", "18546", "400", "normal");
+@include font("20016", "20016", "400", "normal");
+@include font("LegatoTF-RegularItalic", "LegatoTF-RegularItalic", "400", "normal");
+@include font("Gelasio-Medium", "Gelasio-Medium", "400", "normal");
+@include font("Gelasio-Regular", "Gelasio-Regular", "400", "normal");
+@include font("Roboto-Light", "Roboto-Light", "400", "normal");
+@include font("Roboto-Regular", "Roboto-Regular", "400", "normal");
+@include font("Poppins-Light", "Poppins-Light", "400", "normal");
+@include font("Poppins-Regular", "Poppins-Regular", "400", "normal");
